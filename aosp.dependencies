@@ -1,0 +1,13 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Fenix46/vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "branch":     "twelve"
+    },
+    {
+        "repository":   "kernel_xiaomi_apollo",
+        "target_path":  "kernel/xiaomi/apollo",
+        "branch":     "twelve"
+    },
+]
