@@ -173,8 +173,8 @@ PRODUCT_PACKAGES += \
     MatchmakerPrebuilt
 
 # Device-specific settings
-#PRODUCT_PACKAGES += \
-#    XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Component overrides
 PRODUCT_COPY_FILES += \
