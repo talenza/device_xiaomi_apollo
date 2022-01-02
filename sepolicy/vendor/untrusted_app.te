@@ -1,0 +1,6 @@
+auditallow untrusted_app cgroup:file { open read };
+auditallow untrusted_app proc:file { getattr open read };
+auditallow untrusted_app proc_loadavg:file { getattr open read };
+auditallow untrusted_app proc_stat:file { getattr open };
+auditallow untrusted_app proc_vmstat:file open;
+auditallow untrusted_app proc_zoneinfo:file { getattr open read };
