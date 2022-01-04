@@ -5,3 +5,4 @@ auditallow untrusted_app proc_stat:file { getattr open };
 auditallow untrusted_app proc_vmstat:file open;
 allow untrusted_app proc_zoneinfo:file { getattr open read };
 allow untrusted_app postinstall_mnt_dir:dir getattr;
+allow untrusted_app zygote:unix_stream_socket getopt;
