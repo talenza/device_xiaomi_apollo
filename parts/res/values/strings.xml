@@ -17,9 +17,6 @@
 -->
 <resources>
 
-    <string name="htsr_enable_title">Increase Touch Responsiveness</string>
-    <string name="htsr_enable_summary">Increases touch polling rate to decrease latency</string>
-
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
