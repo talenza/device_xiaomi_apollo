@@ -3,12 +3,9 @@ allow init debugfs_tracing_debug:dir mounton;
 
 allow init deviceid_prop:file { map read relabelto write };
 allow init vendor_face3d_producer_prop:file { map read relabelto write };
-allow init vendor_fda_prop:file { map read relabelto write };
-allow init vendor_dbg_brkpoint_prop:file { map read relabelto write };
 allow init same_process_hal_file:file execute;
 allow init vendor_fp_prop:file { map read relabelto write };
 allow init vendor_power_prop:file { map read relabelto write };
-allow init vendor_qspm_dbg_prop:file { map read relabelto write };
 allow init vendor_thermal_normal_prop:file { map read relabelto write };
 
 allow init proc_last_kmsg:file {
