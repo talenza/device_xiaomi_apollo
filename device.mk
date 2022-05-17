@@ -517,7 +517,8 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-include vendor/xiaomi/sdm845-common-extra/wfd.mk
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
